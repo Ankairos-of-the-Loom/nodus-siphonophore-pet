@@ -1,0 +1,65 @@
+{
+  "ok": true,
+  "atlas": "/workspace/scratch/b1c9ec8e4310/pets/nodus/run-001/qa/nodus-v2-final-v4.png",
+  "encoded_bytes": 2234497,
+  "sha256": "4fadb055a1e96d06b3b4468eb5eeed704a6c37400592975fce3ee00d5761baa9",
+  "jump": {
+    "idle_baseline": 202,
+    "jump_baselines": [
+      202,
+      191,
+      180,
+      191,
+      202
+    ],
+    "airborne_lift_pixels": 22,
+    "landing_delta_pixels": 0
+  },
+  "look_registration": {
+    "neutral_center_x": 95.5,
+    "look_centers_x": [
+      95.0,
+      94.5,
+      95.0,
+      95.0,
+      97.5,
+      98.0,
+      95.0,
+      95.5,
+      94.0,
+      94.0,
+      95.0,
+      95.0,
+      95.5,
+      97.0,
+      97.0,
+      98.0
+    ],
+    "look_widths": [
+      68,
+      69,
+      68,
+      70,
+      75,
+      74,
+      68,
+      69,
+      64,
+      64,
+      66,
+      64,
+      65,
+      64,
+      64,
+      62
+    ],
+    "maximum_center_drift_pixels": 2.5,
+    "maximum_width_ratio": 1.2096774193548387
+  },
+  "errors": [],
+  "warnings": [
+    "157.5->180 diff is a local outlier (4833 pixels vs neighbor average 3092)",
+    "270->292.5 diff is a local outlier (4413 pixels vs neighbor average 2484)",
+    "337.5->000 diff is a local outlier (5116 pixels vs neighbor average 3205)"
+  ]
+}
